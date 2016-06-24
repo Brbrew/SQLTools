@@ -1,5 +1,3 @@
-USE [PIT];
-GO
 SET ANSI_NULLS ON;
 GO
 SET QUOTED_IDENTIFIER ON;
@@ -7,7 +5,7 @@ GO
 
 /******************************************************************** 
 PURPOSE:		
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/28/2012
 NOTES:		
 
