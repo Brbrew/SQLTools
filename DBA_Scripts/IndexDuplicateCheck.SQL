@@ -5,8 +5,6 @@ DATE:			09-24-2010
 Notes :    		
 CHANGE CONTROL:
 ***************************************************************************/
-USE	[MoveNDataCentral]
-GO
 
 IF EXISTS (SELECT OBJECT_ID('tempdb..#tmpIndexDuplicate'))
 DROP TABLE #tmpIndexDuplicate
