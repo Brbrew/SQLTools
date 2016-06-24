@@ -1,13 +1,7 @@
-USE [PIT];
-GO
-SET ANSI_NULLS ON;
-GO
-SET QUOTED_IDENTIFIER ON;
-GO
 
 /******************************************************************** 
 PURPOSE:		Transaction Locking
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/15/2012
 NOTES:		
 CHANGE CONTROL:	
