@@ -13,7 +13,7 @@ BEGIN
 execute dbo.sp_executesql @statement = N'
 /******************************************************************** 
 PURPOSE:		
-AUTHOR:			Brewerian B
+AUTHOR:			Brian Brewer
 DATE:			04/10/2012
 NOTES:		
 CHANGE CONTROL:	
