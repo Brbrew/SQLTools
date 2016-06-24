@@ -1,7 +1,7 @@
                               
 /********************************************************************* 
 PURPOSE:		DBA Dashboard
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
@@ -52,7 +52,7 @@ SELECT	@tableHTML = @tableHTML
 FROM	sys.dm_os_sys_info OPTION (RECOMPILE);
 /********************************************************************* 
 PURPOSE:		Backup Data
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
@@ -91,7 +91,7 @@ AND			Database_name IN ('PIT','msdb')
 ORDER BY	Database_name;
 /********************************************************************* 
 PURPOSE:		TOP 10 Logins by Sessions
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
@@ -128,7 +128,7 @@ GROUP BY	login_name
 ORDER BY	COUNT(session_id) DESC OPTION (RECOMPILE);
 /********************************************************************* 
 PURPOSE:		CPU Status
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
@@ -187,7 +187,7 @@ FROM		(	 SELECT		TOP 10
 ORDER BY	[CPUTimeMS] DESC;
 /********************************************************************* 
 PURPOSE:		Memory
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
@@ -216,7 +216,7 @@ SELECT	@tableHTML = @tableHTML
 FROM	sys.dm_os_sys_memory OPTION (RECOMPILE);
 /********************************************************************* 
 PURPOSE:		Table Information
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
@@ -307,7 +307,7 @@ ORDER BY	SysObjects.[Create_DATE] DESC;
 
 /********************************************************************* 
 PURPOSE:		Index Information
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
@@ -344,7 +344,7 @@ ORDER BY	(avg_total_user_cost * avg_user_impact) * (user_seeks + user_scans) DES
 
 /********************************************************************* 
 PURPOSE:		Worst Performing Queries
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
@@ -353,7 +353,7 @@ CHANGE CONTROL:
 
 /********************************************************************* 
 PURPOSE:		Email
-AUTHOR:			BRB2399
+AUTHOR:			Brian Brewer
 DATE:			02/09/2012
 NOTES:		
 CHANGE CONTROL:	
