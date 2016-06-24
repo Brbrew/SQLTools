@@ -53,7 +53,7 @@ FROM	sys.dm_os_sys_info OPTION (RECOMPILE);
 /********************************************************************* 
 PURPOSE:		Backup Data
 AUTHOR:			Brian Brewer
-DATE:			02/09/2012
+DATE:			
 NOTES:		
 CHANGE CONTROL:	
 ********************************************************************/
@@ -92,7 +92,7 @@ ORDER BY	Database_name;
 /********************************************************************* 
 PURPOSE:		TOP 10 Logins by Sessions
 AUTHOR:			Brian Brewer
-DATE:			02/09/2012
+DATE:			
 NOTES:		
 CHANGE CONTROL:	
 ********************************************************************/
@@ -129,7 +129,7 @@ ORDER BY	COUNT(session_id) DESC OPTION (RECOMPILE);
 /********************************************************************* 
 PURPOSE:		CPU Status
 AUTHOR:			Brian Brewer
-DATE:			02/09/2012
+DATE:			
 NOTES:		
 CHANGE CONTROL:	
 ********************************************************************/
@@ -188,7 +188,7 @@ ORDER BY	[CPUTimeMS] DESC;
 /********************************************************************* 
 PURPOSE:		Memory
 AUTHOR:			Brian Brewer
-DATE:			02/09/2012
+DATE:			
 NOTES:		
 CHANGE CONTROL:	
 ********************************************************************/
@@ -217,7 +217,7 @@ FROM	sys.dm_os_sys_memory OPTION (RECOMPILE);
 /********************************************************************* 
 PURPOSE:		Table Information
 AUTHOR:			Brian Brewer
-DATE:			02/09/2012
+DATE:			
 NOTES:		
 CHANGE CONTROL:	
 ********************************************************************/
@@ -308,7 +308,7 @@ ORDER BY	SysObjects.[Create_DATE] DESC;
 /********************************************************************* 
 PURPOSE:		Index Information
 AUTHOR:			Brian Brewer
-DATE:			02/09/2012
+DATE:			
 NOTES:		
 CHANGE CONTROL:	
 ********************************************************************/
@@ -345,7 +345,7 @@ ORDER BY	(avg_total_user_cost * avg_user_impact) * (user_seeks + user_scans) DES
 /********************************************************************* 
 PURPOSE:		Worst Performing Queries
 AUTHOR:			Brian Brewer
-DATE:			02/09/2012
+DATE:			
 NOTES:		
 CHANGE CONTROL:	
 ********************************************************************/
@@ -354,7 +354,7 @@ CHANGE CONTROL:
 /********************************************************************* 
 PURPOSE:		Email
 AUTHOR:			Brian Brewer
-DATE:			02/09/2012
+DATE:			
 NOTES:		
 CHANGE CONTROL:	
 ********************************************************************/
